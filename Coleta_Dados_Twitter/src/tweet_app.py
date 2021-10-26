@@ -91,7 +91,7 @@ db = con["db_tweets"]
 colecao = db["tweets_genocida"]
 
 for tweet in info:
-    json_str = json.dumps(status._json)
+    json_str = json.dumps(tweet._json)
 
     parsed = json.loads(json_str)
 
