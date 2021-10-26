@@ -13,3 +13,4 @@ Exemplo de utilização do Twitter
 }
 - Instale as bibliotecas constantes no requirements.txt:
 pip install -r requirements.txt
+- Altere a conexão com o MongoDB
